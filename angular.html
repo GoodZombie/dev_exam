@@ -20,8 +20,8 @@
             <div class="col-md-8 offset-md-2">
                 <h1 id="page-title">Dev Exam</h1>
                 <h3 id="user-greeting">My name is {{ user.name }}</h3>
-                <p id="user-github"> My Github name is <a href="url">{{ user.github}}</a> </p>
-                <p id="user-repo"> My Github repo where my code is available <a href="url">{{ user.repo}}</a> </p>
+                <p id="user-github"> My Github name is {{ user.github}} </p>
+                <p id="user-repo"> My Github repo where my code is available {{ user.repo}} </p>
                 <p id="user-app"> The site being viewed {{ user.app}}</p>
                 <p id="user-skills"> My few skills are {{ user.skills}}</p>
             </div>
