@@ -1,0 +1,8 @@
+{
+   
+    "name": "Zack Goodwin",
+    "github": "GoodZombie",
+    "repo" : "url to the repo you create for this code", 
+    "app" : "url to the heroku app you create for this", 
+    "skills" : ["HTML", "CSS", "Javascript", "Java", "Python"]
+}
